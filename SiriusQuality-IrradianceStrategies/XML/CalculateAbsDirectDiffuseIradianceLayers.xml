@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll</DataInterfacesDLL>
+    <StrategiesDLL />
+    <IStrategyComponentName>IStrategySiriusQualityIrradiance</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <ModelType>LightInterception</ModelType>
+    <NameSpace>INRA.SiriusQualityIrradiance.Strategies</NameSpace>
+    <StrategyName>CalculateAbsDirectDiffuseIradianceLayers</StrategyName>
+    <StrategyDescription>Calculate diffuse and direct irradiance absorbed by the layers of the canopy</StrategyDescription>
+    <IsContext />
+    <TimeSteps />
+    <AuthorFirstRelease>Loic Manceau</AuthorFirstRelease>
+    <Institution>INRA</Institution>
+    <Email>loic.manceau@inra.fr</Email>
+    <DateFirstRelease>24/04/2020</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>k_dif</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>k_dir</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>rhoCanopyDiff</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>rhoCanopyDir</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>layersGAI</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>incidentDiffuseIrradiance</Variable>
+    <DomainClass>exogenous - INRA.SiriusQualityIrradiance.Interfaces.Exogenous</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>incidentDirectIrradiance</Variable>
+    <DomainClass>exogenous - INRA.SiriusQualityIrradiance.Interfaces.Exogenous</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>absorbedDirIrradiance</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedDiffIrradiance</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-IrradianceDomainClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

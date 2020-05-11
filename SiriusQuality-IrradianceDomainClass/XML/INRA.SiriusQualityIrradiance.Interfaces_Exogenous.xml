@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<Exogenous>
+  <xs:schema id="Exogenous" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Exogenous" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VarInfoVariables">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="MinValue" type="xs:double" minOccurs="0" />
+                <xs:element name="MaxValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:double" minOccurs="0" />
+                <xs:element name="Units" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Description">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DomainClassNameSpace" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeURL" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeDescription" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <VarInfoVariables>
+    <Name>incidentDirectIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ m-2 h-1</Units>
+    <Type>double[24]</Type>
+    <Description>Incident beam irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>incidentDiffuseIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ m-2 h-1</Units>
+    <Type>double[24]</Type>
+    <Description>Incident diffuse irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>solarElevation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1.5708</MaxValue>
+    <DefaultValue>1.5708</DefaultValue>
+    <Units>radians</Units>
+    <Type>double[24]</Type>
+    <Description>Solar elevation angle</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>incidentDirectIrradianceNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ m-2 h-1</Units>
+    <Type>double[24]</Type>
+    <Description>Incident beam irradiance for Near Infrared Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>incidentDirectIrradiancePAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ m-2 h-1</Units>
+    <Type>double[24]</Type>
+    <Description>Incident beam irradiance for Photosynthetically Active Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>incidentDiffuseIrradianceNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ m-2 h-1</Units>
+    <Type>double[24]</Type>
+    <Description>Incident diffuse irradiance for Near Infrared Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>incidentDiffuseIrradiancePAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ m-2 h-1</Units>
+    <Type>double[24]</Type>
+    <Description>Incident diffuse irradiance for Photosynthetically Active Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <Description>
+    <DomainClassNameSpace>INRA.SiriusQualityIrradiance.Interfaces</DomainClassNameSpace>
+    <DomainTypeName>Exogenous</DomainTypeName>
+    <DomainTypeURL>http://</DomainTypeURL>
+    <DomainTypeDescription>Domain class for Irradiance exogenous states</DomainTypeDescription>
+  </Description>
+</Exogenous>

@@ -1,0 +1,341 @@
+<?xml version="1.0" standalone="yes"?>
+<States>
+  <xs:schema id="States" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="States" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VarInfoVariables">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="MinValue" type="xs:double" minOccurs="0" />
+                <xs:element name="MaxValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:double" minOccurs="0" />
+                <xs:element name="Units" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Description">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DomainClassNameSpace" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeURL" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeDescription" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <VarInfoVariables>
+    <Name>rhoLeaf</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.07</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Leaf reflectance coefficient</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>tauLeaf</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.07</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Leaf transmittance coefficient</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>rhoCanopyDiff</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Reflectance coefficient of a canopy having non horizontal leaves</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>rhoCanopyDir</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Canopy reflectance coefficient to diffuse irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k1_dir</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Coefficient of extinction of beam irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k_dir</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Coefficient of extinction of beam and scatter irradiances</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k_dif</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Extinction coefficient of diffuse and scatter irradiance from the entire sky</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>layersGAI</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>5</DefaultValue>
+    <Units>m²leaf/m²ground</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Leaf area index per layer</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>sunlitFraction</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Sunlit leaves surface fraction (generic variable)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>shadeFraction</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Shade leaves surface fraction (generic variable)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>sunlitShadedFraction</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of fraction of shaded and sunlit leaves</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>sunlitShadedFractionNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of fraction of shaded and sunlit leaves for Near Infrared Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>sunlitShadedFractionPAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of fraction of shaded and sunlit leaves for Photosynthetically Active radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k_dirNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Coefficient of extinction of beam and scatter irradiances for Near Infrared Radiation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k_dirPAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Coefficient of extinction of beam and scatter irradiances for Photosynthetically Active Radiaitions</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k_difNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Extinction coefficient of diffuse and scatter irradiance from the entire sky for Near Infrared Radaiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k_difPAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Extinction coefficient of diffuse and scatter irradiance from the entire sky for Photosynthetically Active Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>rhoCanopyDirNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Canopy reflectance coefficient to diffuse irradiance for Near Infrared Radiaitions</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>rhoCanopyDirPAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Canopy reflectance coefficient to diffuse irradiance for Photosyntheti cally Active Radiaitions</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>k_difBlack</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Extinction coefficient of diffuse and scatter irradiance from the entire sky for black leaves</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>ala</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>0.78</MaxValue>
+    <DefaultValue>3.141592</DefaultValue>
+    <Units>radians</Units>
+    <Type>double</Type>
+    <Description>Average leaf angle</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cumulTT</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>double</Type>
+    <Description>Cumulative physiological Thermal Time</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>termSpikletTT</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>double</Type>
+    <Description>Cumulative physiological Thermal Time at terrminal spiklet growth stage </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>flagLeafLiguleTT</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>double</Type>
+    <Description>Cumulative physiological Thermal Time at  Flag Leaf Ligulation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>fiPARb</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>-</Units>
+    <Type>Dictionary&lt;double,double&gt;</Type>
+    <Description>Fraction of direct intercepted light</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>FLN</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>15</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description>Final Leaf Number</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>HS</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>5</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description>Haun Stage</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>Phyll</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>120</DefaultValue>
+    <Units>°Cd/leaf</Units>
+    <Type>double</Type>
+    <Description>Phyllochron</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>rhoCanopyDiffNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>eflectance coefficeintfo diffuse NIR</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>rhoCanopyDiffPAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <Type>double</Type>
+    <Description>Reflectance Coefficient for Diffuse PAR</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <Description>
+    <DomainClassNameSpace>INRA.SiriusQualityIrradiance.Interfaces</DomainClassNameSpace>
+    <DomainTypeName>States</DomainTypeName>
+    <DomainTypeURL>http://</DomainTypeURL>
+    <DomainTypeDescription>State variables of Irradiance component</DomainTypeDescription>
+  </Description>
+</States>

@@ -1,0 +1,251 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy>checked</CompositeStrategy>
+    <DataInterfacesDLL>C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceStrategies\bin\Debug\SiriusQuality-IrradianceDomainClass.dll</DataInterfacesDLL>
+    <StrategiesDLL>C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceStrategies\bin\Debug\SiriusQuality-IrradianceStrategies.dll</StrategiesDLL>
+    <IStrategyComponentName>IStrategySiriusQualityIrradiance</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <ModelType>LightInterception</ModelType>
+    <NameSpace>INRA.SiriusQualityIrradiance.Strategies</NameSpace>
+    <StrategyName>Irradiance</StrategyName>
+    <StrategyDescription>Composite class: merge NIR and PAR</StrategyDescription>
+    <IsContext>false</IsContext>
+    <TimeSteps />
+    <AuthorFirstRelease>Loic Manceau</AuthorFirstRelease>
+    <Institution>INRA</Institution>
+    <Email>loic.manceau@inra.fr</Email>
+    <DateFirstRelease>27/04/2020</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>incidentDiffuseIrradianceNIR</Variable>
+    <DomainClass>exogenous - INRA.SiriusQualityIrradiance.Interfaces.Exogenous</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>incidentDiffuseIrradiancePAR</Variable>
+    <DomainClass>exogenous - INRA.SiriusQualityIrradiance.Interfaces.Exogenous</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>incidentDirectIrradianceNIR</Variable>
+    <DomainClass>exogenous - INRA.SiriusQualityIrradiance.Interfaces.Exogenous</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>incidentDirectIrradiancePAR</Variable>
+    <DomainClass>exogenous - INRA.SiriusQualityIrradiance.Interfaces.Exogenous</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>k_difNIR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>k_difPAR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>k_dirNIR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>k_dirPAR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedDiffIrradianceNIR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedDiffIrradiancePAR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedDirIrradianceNIR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedDirIrradiancePAR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedGlobalIrradianceNIR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedGlobalIrradiancePAR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedIrradiance</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedIrradianceNIR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>absorbedIrradiancePAR</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>rhoCanopyDirNIR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>rhoCanopyDirPAR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>rhoCanopyDiffNIR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>rhoCanopyDiffPAR</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Parameters>
+    <VarName>rhoLeafPAR</VarName>
+    <Description>Reflectance coefficient at leaf level for PAR</Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0.057</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>rhoLeafNIR</VarName>
+    <Description>Reflectance coefficient at leaf level for NIR</Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0.389</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>tauLeafPAR</VarName>
+    <Description>Transmitance coefficient at leaf level for PAR </Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0.143</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>tauLeafNIR</VarName>
+    <Description>Transmitance coefficient at leaf level for NIR</Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0.411</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>useSunShade</VarName>
+    <Description>0: Global Irradiance, 1: direct/Diffuse</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Integer</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>useHourly</VarName>
+    <Description>0: Daily, 1: Hourly</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Integer</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>useLayered</VarName>
+    <Description>0:Big leaf, 1: Layered</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Integer</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>useDiffDirIrradiance</VarName>
+    <Description>1: Diect Diffuse Output Irradiance, 0: Other option</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Integer</ValueType>
+  </Parameters>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateAbsDirectDiffuseIradianceCanopy</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateAbsDirectDiffuseIradianceLayers</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateAbsIrradianceSunShadeCanopy</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateAbsIrradianceSunShadeLayers</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateDiffReflectanceCoef</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateDiffusionExtinctionCoef</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateDirectExtinctionCoef</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateDirectExtinctionCoefBlakLeavesEllipse</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateDirectExtinctionCoefBlakLeavesSphere</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateDirectReflectanceCoef</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateFractionSunShadeCanopy</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateFractionSunShadeLayers</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateGlobalAbsorbedRadiationDaily</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateGlobalAbsorbedRadiationDailyLayers</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateGlobalAbsorbedRadiationHourly</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateGlobalAbsorbedRadiationHourlyLayers</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateIntDirectIrradianceCanopy</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>INRA.SiriusQualityIrradiance.Strategies.CalculateMeanAngle</StrategyFullName>
+  </AssociatedStrategies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-IrradianceDomainClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

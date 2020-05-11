@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll</DataInterfacesDLL>
+    <StrategiesDLL />
+    <IStrategyComponentName>IStrategySiriusQualityIrradiance</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <ModelType>LightInterception</ModelType>
+    <NameSpace>INRA.SiriusQualityIrradiance.Strategies</NameSpace>
+    <StrategyName>CalculateGlobalAbsorbedRadiationDailyLayers</StrategyName>
+    <StrategyDescription>Calculate global absorbed radiation Daily leaf layer by leaf layer</StrategyDescription>
+    <IsContext>false</IsContext>
+    <TimeSteps />
+    <AuthorFirstRelease>Loic Manceau</AuthorFirstRelease>
+    <Institution>INRA</Institution>
+    <Email>loic.manceau@inra.fr</Email>
+    <DateFirstRelease>3/2/2018</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>absorbedGlobalIrradianceLayeredHourly</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>absorbedGlobalIrradiance</Variable>
+    <DomainClass>rates - INRA.SiriusQualityIrradiance.Interfaces.Rates</DomainClass>
+  </Outputs>
+  <Parameters>
+    <VarName>Kl</VarName>
+    <Description>Extinction coefficient of PAR irradiance through the canopy (no distinction between direct and diffuse fractions)</Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-IrradianceDomainClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

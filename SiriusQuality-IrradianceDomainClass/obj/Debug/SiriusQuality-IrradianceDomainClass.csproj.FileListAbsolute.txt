@@ -1,0 +1,139 @@
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPMouleIrr\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDM\SQDMLoicMay\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SQDMOld\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Irradiance\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojAssemblyReference.cache
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CopyComplete
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\liu\OneDrive\A_faire\SQ_assimilation\SQ_code\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\DesktopBU\Shouyang\SiriusCode2\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CopyComplete
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojAssemblyReference.cache
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CoreCompileInputs.cache
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CopyComplete
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\CRA.ModelLayer.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojAssemblyReference.cache
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CoreCompileInputs.cache
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CopyComplete
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\loicm\GitSiriusCode\siriuscomponentsdm\Code\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CoreCompileInputs.cache
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csproj.CopyComplete
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality-BioMa-Irradiance-Component\SiriusQuality-IrradianceDomainClass\obj\Debug\SiriusQuality-IrradianceDomainClass.csprojAssemblyReference.cache

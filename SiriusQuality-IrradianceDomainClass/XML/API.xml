@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<API_Definitions>
+  <Specifications>
+    <Col_FileName>C:\Users\mancealo\Documents\Sirius Quality\branches\RamiAprilCPModuleIrr\Code\SiriusQuality-IrradianceDomainClass\XML\API.xml</Col_FileName>
+    <Col_Postfix>SiriusQualityIrradiance</Col_Postfix>
+    <Col_MainMethod>Estimate</Col_MainMethod>
+    <Col_MethodParameters>( Rates r, Exogenous e, States s, ActEvents ae);</Col_MethodParameters>
+    <Col_NameSpace>INRA.SiriusQualityIrradiance.Interfaces</Col_NameSpace>
+  </Specifications>
+  <DomainClasses>
+    <Col_ClassFileNames>Rates</Col_ClassFileNames>
+  </DomainClasses>
+  <DomainClasses>
+    <Col_ClassFileNames>Exogenous</Col_ClassFileNames>
+  </DomainClasses>
+  <DomainClasses>
+    <Col_ClassFileNames>States</Col_ClassFileNames>
+  </DomainClasses>
+</API_Definitions>

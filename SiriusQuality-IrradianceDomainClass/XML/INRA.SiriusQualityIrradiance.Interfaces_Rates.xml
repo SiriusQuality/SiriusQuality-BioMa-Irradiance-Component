@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="yes"?>
+<Rates>
+  <xs:schema id="Rates" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Rates" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VarInfoVariables">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="MinValue" type="xs:double" minOccurs="0" />
+                <xs:element name="MaxValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:double" minOccurs="0" />
+                <xs:element name="Units" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Description">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DomainClassNameSpace" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeURL" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeDescription" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <VarInfoVariables>
+    <Name>absorbedGlobalIrradianceLayeredHourly</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² h layer)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Hourly absorbed  global irradiance per unit ground area layer by layer</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedGlobalIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed global irradiance per unit ground area (generic varaible) </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedShadedIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed diffuse irradiance per unit ground area (generic varaible)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedSunlitIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed direct irradiance per unit ground area (generic varaible)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of  direct an diffuse absorbed direct irradiance per unit ground area (generic varaible) </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedIrradianceNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed total irradiance per unit ground area (generic varaible)  for Near Infrared Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedIrradiancePAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed total irradiance per unit ground area (generic varaible)  for Photosynthetically Active Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedGlobalIrradianceNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed global irradiance per unit ground area (generic varaible)  for Near Infrared Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedGlobalIrradiancePAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed global irradiance per unit ground area (generic varaible)  for Photosyntetically Active Radiations</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedDiffIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed diffuse Irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedDirIrradiance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed direct Irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedDiffIrradianceNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed diffuse NIR Irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedDiffIrradiancePAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed diffuse PAR Irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedDirIrradianceNIR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed direct NIR Irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>absorbedDirIrradiancePAR</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>MJ/(m² T Layer?)</Units>
+    <Type>Dictionary&lt;int,double&gt;</Type>
+    <Description>Summary of absorbed direct PAR Irradiance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <Description>
+    <DomainClassNameSpace>INRA.SiriusQualityIrradiance.Interfaces</DomainClassNameSpace>
+    <DomainTypeName>Rates</DomainTypeName>
+    <DomainTypeURL>http://</DomainTypeURL>
+    <DomainTypeDescription>Domain class for Irradiance exogenous rates</DomainTypeDescription>
+  </Description>
+</Rates>

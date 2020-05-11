@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusQuality-IrradianceConsole", "SiriusQuality-IrradianceConsole\SiriusQuality-IrradianceConsole.csproj", "{62C025C1-8434-4EC5-984A-EBE07E14CF0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52B7028B-6F06-4370-A5FE-2B9A381E6D76} = {52B7028B-6F06-4370-A5FE-2B9A381E6D76}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusQuality-IrradianceDomainClass", "SiriusQuality-IrradianceDomainClass\SiriusQuality-IrradianceDomainClass.csproj", "{F97EFF5F-5903-4B0B-A22D-C2CD70B21F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusQuality-IrradianceStrategies", "SiriusQuality-IrradianceStrategies\SiriusQuality-IrradianceStrategies.csproj", "{52B7028B-6F06-4370-A5FE-2B9A381E6D76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F97EFF5F-5903-4B0B-A22D-C2CD70B21F69} = {F97EFF5F-5903-4B0B-A22D-C2CD70B21F69}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIrradianceComponent", "TestIrradianceComponent\TestIrradianceComponent.csproj", "{412C1142-35CE-4743-A5F2-C068B2242CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C025C1-8434-4EC5-984A-EBE07E14CF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C025C1-8434-4EC5-984A-EBE07E14CF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C025C1-8434-4EC5-984A-EBE07E14CF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C025C1-8434-4EC5-984A-EBE07E14CF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97EFF5F-5903-4B0B-A22D-C2CD70B21F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97EFF5F-5903-4B0B-A22D-C2CD70B21F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97EFF5F-5903-4B0B-A22D-C2CD70B21F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97EFF5F-5903-4B0B-A22D-C2CD70B21F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B7028B-6F06-4370-A5FE-2B9A381E6D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B7028B-6F06-4370-A5FE-2B9A381E6D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B7028B-6F06-4370-A5FE-2B9A381E6D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B7028B-6F06-4370-A5FE-2B9A381E6D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412C1142-35CE-4743-A5F2-C068B2242CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412C1142-35CE-4743-A5F2-C068B2242CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412C1142-35CE-4743-A5F2-C068B2242CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412C1142-35CE-4743-A5F2-C068B2242CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\SiriusQuality-IrradianceDomainClass\bin\Debug\SiriusQuality-IrradianceDomainClass.dll</DataInterfacesDLL>
+    <StrategiesDLL />
+    <IStrategyComponentName>IStrategySiriusQualityIrradiance</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <ModelType>LightInterception</ModelType>
+    <NameSpace>INRA.SiriusQualityIrradiance.Strategies</NameSpace>
+    <StrategyName>CalculateMeanAngle</StrategyName>
+    <StrategyDescription>Calcalates mean orietation angle for ellipsoidal dsitribution as a function of cumulated physiological thermal time</StrategyDescription>
+    <IsContext>false</IsContext>
+    <TimeSteps />
+    <AuthorFirstRelease>Loic Manceau</AuthorFirstRelease>
+    <Institution>INRA</Institution>
+    <Email>loic.manceau@inra.fr</Email>
+    <DateFirstRelease>21/04/2020</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>cumulTT</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>flagLeafLiguleTT</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>FLN</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>HS</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>Phyll</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>termSpikletTT</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>ala</Variable>
+    <DomainClass>states - INRA.SiriusQualityIrradiance.Interfaces.States</DomainClass>
+  </Outputs>
+  <Parameters>
+    <VarName>alaJuv</VarName>
+    <Description>Mean leaf angle for a ellipsoidal distribution during at terminal spikelet (GS30)</Description>
+    <MaxValue>7</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0.806</DefaultValue>
+    <Units>rd</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>alaMat</VarName>
+    <Description>Mean leaf angle for a ellipsoidal distribution at flag leaf ligule (GS39)</Description>
+    <MaxValue>7</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>1.216</DefaultValue>
+    <Units>rd</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-IrradianceDomainClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>
