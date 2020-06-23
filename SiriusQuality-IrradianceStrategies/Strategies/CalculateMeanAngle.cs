@@ -481,9 +481,10 @@ namespace INRA.SiriusQualityIrradiance.Strategies
 				}
 			}
 
-		
+        double hs30 = 0.0;
+        double tt30 = 0.0;
 
-			private void CalculateModel(INRA.SiriusQualityIrradiance.Interfaces.Rates rates,INRA.SiriusQualityIrradiance.Interfaces.Exogenous exogenous,INRA.SiriusQualityIrradiance.Interfaces.States states,CRA.AgroManagement.ActEvents actevents)
+        private void CalculateModel(INRA.SiriusQualityIrradiance.Interfaces.Rates rates,INRA.SiriusQualityIrradiance.Interfaces.Exogenous exogenous,INRA.SiriusQualityIrradiance.Interfaces.States states,CRA.AgroManagement.ActEvents actevents)
 			{				
 				
 
@@ -502,8 +503,7 @@ namespace INRA.SiriusQualityIrradiance.Strategies
                 #endregion
 
                 double a = 0.0;
-                double hs30 = 0.0;
-                double tt30 = 0.0;
+
 
                 if (TT <= TTGS30 || TTGS30 == -999) { 
 
